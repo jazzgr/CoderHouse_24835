@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu Cuenta</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../img/intel.png">
+
+</head>
+<body id="body-crea">
+    <header>
+        <h1>PresuApp</h1>
+        <img src="../img/intel.png" class="logo" alt="Logo" />  		 		
+            <nav>
+                <ul>
+                    <li><a href="../index.html" >Inicio</a></li>
+                    <li><a href="conocenos.html" >Conocenos</a></li>
+                    <li><a href="plantillas.html" >Plantillas</a></li>
+                    <li><a href="login.html" >Login</a></li>
+                </ul>  
+            </nav> 
+    </header>
+    <main-content>
+        <section class="crea">
+            <article>
+                    <h1>Ingresa tus datos para que seas parte de nosotros</h1>
+                <form>
+                    
+                    <div class="formcuenta">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido">
+                    
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                    
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password">
+                    
+                    <label for="pw_confirm">Confirmación de Contraseña:</label>
+                    <input type="password" id="pw_confirm" name="password_confirmacion">
+                    
+                    <label for="cumpleanos">Cumpleaños:</label>
+                    <input type="date" id="cumpleanos" name="cumpleanos">
+                    
+                    </div>
+                <div class="radio">
+                    <label for="radio">Hombre</label>
+                    <input type="radio" id="Hombre" name="genero" value="Hombre">
+                    
+                    <label for="radio">Mujer</label>
+                    <input type="radio" id="Mujer" name="genero" value="Mujer">
+                    
+                    <label for="radio">Otro</label>
+                    <input type="radio" id="Otro" name="genero" value="Otro">
+                </div>
+                <div class="formcuenta">
+                    <p>Una breve descripcion de ti</p>
+                    <textarea name="description"></textarea>
+                
+                    <p>Que Color te gusta?</p>
+                    <select name="Color">
+                    <option value="Rojo">Rojo</option>
+                    <option value="Verde">Verde</option>
+                    <option value="Morado">Morado</option></select>
+                </div>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+        </section>
+    </main-content>
+    <footer class="pie" >  
+        <div >
+            <form>
+                    <label for="suscribirse" type="description">Suscribirse</label>
+                    <label for="email" type="description">Email:</label>
+                    <input type="text" id="email" name="email">
+                    <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt expedita magnam eveniet earum, cupiditate pariatur rerum dolores modi dolorum? Reiciendis distinctio a nobis et commodi ea eligendi cupiditate. Aliquam et error consectetur amet in accusantium saepe optio voluptas </p></div>
+    </footer>
+</body>
+</html>

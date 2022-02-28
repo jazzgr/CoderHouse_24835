@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+header{
+    
+    justify-content: space-around;
+    background-color: black;
+    display: grid;
+    grid-area: header;
+    grid-template-columns: repeat(3,2fr);
+    justify-items: center;
+    color: white;
+    align-items: center;
+    font-size:90%;
+}
+nav{
+    display: flex;
+    align-items:flex-end;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    background-color: #6b59cb;
+    border-radius: 3px;
+    margin: 5px; 
+    padding: 5px; 
+    text-align: center;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+   /* PARALAX */
+.parallax {
+    background-image: url("../img/paralax.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+    
+    }
+    .parallax h4 {
+        font-size: 40px; 
+        text-align: center; 
+        background-color: rgba(14, 13, 13, 0.7);
+        color: white;
+        font-family: "Poppins", sans-serif;
+        
+    }
+    .parallax p {
+        font-size: 25px; 
+        text-align: center; 
+        background-color: rgba(255,255,255, 0.7);
+        font-family: "Poppins", sans-serif;
+        padding: 10px;
+        color: black;
+    }
+    .parallax ul{
+        text-align: center;
+        background-color:rgba(255,255,255, 0.7);
+        font-family: "Poppins", sans-serif;
+        justify-content: space-around;
+    }
+    .info article{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .info h3{
+        font-size: 40px; 
+        text-align: center; 
+        background-color: rgba(14, 13, 13, 0.7);
+        color: white;
+        font-family: "Poppins", sans-serif;
+        margin-top: 20px;
+    }
+    .info p {
+        font-size: 20px; 
+        text-align: center; 
+        background-color: rgba(255,255,255, 0.7);
+        font-family: "Poppins", sans-serif;
+        color: black;
+        
+    }
+    .info iframe{
+        width: auto;
+        height: auto;
+        margin: 20px;
+    }
+
+/* FOOTEER */
+footer{
+    background-color: black;
+    color: white;
+    bottom: 0;
+    margin-top: auto;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+}
+.pie p{
+    font-size: 10px;
+}
+.pie div{
+        
+    margin: 10px;
+    border: black;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: space-between;
+    
+}
+.pie div form{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    margin:10px;
+}
+.pie form label{
+    margin: 10px;
+    font-size: 10px;
+}
+.pie form input[type="text"]{
+    margin: 10px;
+    font-size: 10px;
+}
+
+.pie form input[type="submit"]{
+    background-color: #6b59cb;
+    border-radius: 3px;
+    margin: 5px; 
+    padding: 5px; 
+    text-align: center;
+}
+.pie p{
+    margin: 10px;
+    
+}
+
+/* CONOCENOS---------------------------------- */
+
+.conoce{
+    background-image: url("../img/rosa.JPG");
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+    color: white;
+}
+#who h2{
+    font-size: 50px; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 20px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    color: white
+}
+#who p{
+    font-size: 20px; 
+    text-align: center; 
+    background-color: rgba(255,255,255, 0.7);
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    color: black;
+}
+#who div
+{   
+    text-align: center;
+}
+
+
+#history h3{
+    font-size: 50px; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 20px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    color: white
+}
+#history p{
+    font-size: 20px; 
+    text-align: center; 
+    background-color: rgba(255,255,255, 0.7);
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    color: black; 
+}
+#history div
+{  
+    text-align: center;
+}
+
+
+/* PLANTILLAS---------- */
+
+/* PLANTILLAS */
+.plantilla{
+    background-image: url("../img/julio.JPG");
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+    color: white;
+}
+.plantilla h2{
+    font-size: 60px; 
+    text-align: center; 
+    background-color: rgba(255,255,255, 0.7);
+    padding-top: 20px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+.plantilla p{
+    font-size: 20px; 
+    text-align: center; 
+    background-color: rgba(255,255,255, 0.7);
+    font-family: "Poppins", sans-serif;
+    color: black;
+    padding: 10px;
+
+}
+
+.plantilla h5{
+    font-size: 40px; 
+    text-align: center; 
+    background-color: rgba(5, 14, 56, 0.7);
+    padding-top: 20px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.plantilla div{
+    margin: 20px;
+    background-color:rgba(0, 0, 0, 0.589); 
+    border-radius: 3px solid black;
+}
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 9px;
+    grid-row-gap: 9px;
+    justify-items: center;
+}   
+.foto{
+    width:250px;
+    height: 250px;
+    margin: 10px;
+    
+}
+/* LOGIIIINNN--------*/
+/* LOGIN  */
+    
+
+.login{
+    background-image: url("../img/fuego.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+}
+.formlogin{   
+    background-color: rgba(255,255,255, 0.7);
+    padding: 10px;
+    color: black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.formu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.login form input[type="submit"]{
+    background-color: #6b59cb;
+    border-radius: 3px;
+    margin: 5px; 
+    padding: 5px; 
+    text-align: center;
+}
+
+/* CREACION DE USUARIOOOOS */
+.crea{
+    background-image: url("../img/blanco.JPG");
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+}
+.crea article{
+    
+    background-color: rgba(7, 7, 7, 0.7);
+    font-family: "Poppins", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.formcuenta{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.crea article h1{
+    text-align: center;
+}
+.formcuenta p{
+    text-align: left;
+}
+.radio{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    justify-items:center;
+} 
+.crea form input[type="submit"]{
+    background-color: #6b59cb;
+    border-radius: 3px;
+    margin: 5px; 
+    padding: 5px; 
+    text-align: center;
+    
+}
+
+@media screen and (max-width:670px) {
+    header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr)
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fotos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 9px;
+        grid-row-gap: 9px;
+        justify-items: center;
+    } 
+}
+
+@media screen and (min-width:671px) {
+    header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr)
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fotos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 9px;
+        grid-row-gap: 9px;
+        justify-items: center;
+    } 
+
+    
+
+}
+@media screen and (min-width:1024px) {
+    header{
+        display: grid;
+        grid-template-columns: repeat(3,1fr)
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fotos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 9px;
+        grid-row-gap: 9px;
+        justify-items: center;
+    } 
+
+
+} 
+
